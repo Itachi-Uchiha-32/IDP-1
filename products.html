@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MediCare</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-filters">
+      <input type="text" id="searchInput" placeholder="Search products by name...">
+
+      <select id="companyFilter">
+        <option value="">Filter by Company</option>
+      </select>
+
+      <select id="categoryFilter">
+        <option value="">Filter by Symptom/Category</option>
+      </select>
+
+      <select id="groupFilter">
+        <option value="">Filter by Group</option>
+      </select>
+    </section>
+
+    <section id="products" class="products">
+      <h2>All Products</h2>
+      <div class="product-grid">
+        <!-- Dynamic products will load here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MediCare. All rights reserved.</p>
+  </footer>
+
+  <script src="products.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Napa (Paracetamol)",
+    "company": "Beximco Pharmaceuticals",
+    "category": "Pain Relief",
+    "price": 40,
+    "image": "images/napa.jpg",
+    "description": "Effective for reducing fever and mild to moderate pain."
+  },
+  {
+    "id": 2,
+    "name": "Seclo (Omeprazole)",
+    "company": "Square Pharmaceuticals",
+    "category": "Gastrointestinal",
+    "price": 120,
+    "image": "images/seclo.jpg",
+    "description": "Used to treat gastric ulcers and acid reflux."
+  },
+  {
+    "id": 3,
+    "name": "Azee (Azithromycin)",
+    "company": "Incepta Pharmaceuticals",
+    "category": "Antibiotics",
+    "price": 180,
+    "image": "images/azee.jpg",
+    "description": "Antibiotic effective against bacterial infections."
+  },
+  {
+    "id": 4,
+    "name": "Maxpro (Esomeprazole)",
+    "company": "Renata Limited",
+    "category": "Gastrointestinal",
+    "price": 150,
+    "image": "images/maxpro.jpg",
+    "description": "Reduces stomach acid, treating GERD and ulcers."
+  },
+  {
+    "id": 5,
+    "name": "Montedoc (Montelukast)",
+    "company": "Incepta Pharmaceuticals",
+    "category": "Respiratory",
+    "price": 200,
+    "image": "images/montedoc.jpg",
+    "description": "Used for asthma and allergy management."
+  },
+  {
+    "id": 6,
+    "name": "Pantose (Pantoprazole)",
+    "company": "Healthcare Pharmaceuticals",
+    "category": "Gastrointestinal",
+    "price": 130,
+    "image": "images/pantose.jpg",
+    "description": "Treats acid reflux and prevents stomach ulcers."
+  },
+  {
+    "id": 7,
+    "name": "Neuro-B (Vitamin B Complex)",
+    "company": "Square Pharmaceuticals",
+    "category": "Vitamins & Supplements",
+    "price": 90,
+    "image": "images/neurob.jpg",
+    "description": "Vitamin B complex for nerve health and energy."
+  },
+  {
+    "id": 8,
+    "name": "Furoclav (Cefuroxime + Clavulanic Acid)",
+    "company": "Renata Limited",
+    "category": "Antibiotics",
+    "price": 250,
+    "image": "images/furoclav.jpg",
+    "description": "Broad-spectrum antibiotic effective for infections."
+  },
+  {
+    "id": 9,
+    "name": "Zimax (Azithromycin)",
+    "company": "Eskayef Pharmaceuticals",
+    "category": "Antibiotics",
+    "price": 170,
+    "image": "images/zimax.jpg",
+    "description": "Treats respiratory and urinary tract infections."
+  },
+  {
+    "id": 10,
+    "name": "Insulatard (Insulin)",
+    "company": "Incepta Pharmaceuticals",
+    "category": "Diabetes Care",
+    "price": 450,
+    "image": "images/insulatard.jpg",
+    "description": "Insulin injection for type 1 and type 2 diabetes."
+  },
+  {
+    "id": 11,
+    "name": "Losectil (Omeprazole)",
+    "company": "ACME Laboratories",
+    "category": "Gastrointestinal",
+    "price": 100,
+    "image": "images/losectil.jpg",
+    "description": "Relieves symptoms of acid reflux and ulcers."
+  },
+  {
+    "id": 12,
+    "name": "Aristovit-B (Multivitamins)",
+    "company": "Aristopharma",
+    "category": "Vitamins & Supplements",
+    "price": 110,
+    "image": "images/aristovit.jpg",
+    "description": "Boosts energy and supports overall health."
+  },
+  {
+    "id": 13,
+    "name": "Norflox (Norfloxacin)",
+    "company": "Opsonin Pharma",
+    "category": "Antibiotics",
+    "price": 140,
+    "image": "images/norflox.jpg",
+    "description": "Effective against urinary tract infections."
+  },
+  {
+    "id": 14,
+    "name": "Metformin",
+    "company": "Beximco Pharmaceuticals",
+    "category": "Diabetes Care",
+    "price": 80,
+    "image": "images/metformin.jpg",
+    "description": "Helps control blood sugar in type 2 diabetes."
+  },
+  {
+    "id": 15,
+    "name": "Zincovit (Zinc + Vitamins)",
+    "company": "Eskayef Pharmaceuticals",
+    "category": "Vitamins & Supplements",
+    "price": 95,
+    "image": "images/zincovit.jpg",
+    "description": "Supports immunity and overall health."
+  },
+  {
+    "id": 16,
+    "name": "Cefolac (Cefixime)",
+    "company": "Healthcare Pharmaceuticals",
+    "category": "Antibiotics",
+    "price": 210,
+    "image": "images/cefolac.jpg",
+    "description": "Third-generation cephalosporin antibiotic."
+  },
+  {
+    "id": 17,
+    "name": "Loratadine",
+    "company": "Square Pharmaceuticals",
+    "category": "Allergy Relief",
+    "price": 60,
+    "image": "images/loratadine.jpg",
+    "description": "Non-drowsy antihistamine for allergy symptoms."
+  },
+  {
+    "id": 18,
+    "name": "Cough Syrup (Ambroxol)",
+    "company": "Renata Limited",
+    "category": "Respiratory",
+    "price": 85,
+    "image": "images/coughsyrup.jpg",
+    "description": "Relieves cough and congestion."
+  },
+  {
+    "id": 19,
+    "name": "Zolium (Esomeprazole)",
+    "company": "Opsonin Pharma",
+    "category": "Gastrointestinal",
+    "price": 145,
+    "image": "images/zolium.jpg",
+    "description": "Treats acid reflux and stomach ulcers."
+  },
+  {
+    "id": 20,
+    "name": "Amoxicillin",
+    "company": "ACME Laboratories",
+    "category": "Antibiotics",
+    "price": 90,
+    "image": "images/amoxicillin.jpg",
+    "description": "Common antibiotic used for various infections."
+  },
+  {
+    "id": 21,
+    "name": "Dexpoten (Dexamethasone)",
+    "company": "Square Pharmaceuticals",
+    "category": "Steroids",
+    "price": 250,
+    "image": "images/dexpoten.jpg",
+    "description": "Used to reduce inflammation and treat autoimmune diseases."
+  },
+  {
+    "id": 22,
+    "name": "Atorvastatin",
+    "company": "Beximco Pharmaceuticals",
+    "category": "Cardiovascular",
+    "price": 300,
+    "image": "images/atorvastatin.jpg",
+    "description": "Helps lower cholesterol and triglyceride levels."
+  },
+  {
+    "id": 23,
+    "name": "Claritek (Clarithromycin)",
+    "company": "Incepta Pharmaceuticals",
+    "category": "Antibiotics",
+    "price": 220,
+    "image": "images/claritek.jpg",
+    "description": "Effective for respiratory tract infections."
+  },
+  {
+    "id": 24,
+    "name": "Losartan",
+    "company": "Renata Limited",
+    "category": "Cardiovascular",
+    "price": 200,
+    "image": "images/losartan.jpg",
+    "description": "Used to treat high blood pressure."
+  },
+  {
+    "id": 25,
+    "name": "Duloxetine",
+    "company": "Eskayef Pharmaceuticals",
+    "category": "Mental Health",
+    "price": 350,
+    "image": "images/duloxetine.jpg",
+    "description": "Used for depression, anxiety, and nerve pain."
+  },
+  {
+    "id": 26,
+    "name": "Omix (Omeprazole)",
+    "company": "Healthcare Pharmaceuticals",
+    "category": "Gastrointestinal",
+    "price": 110,
+    "image": "images/omix.jpg",
+    "description": "Relieves heartburn and acid reflux."
+  },
+  {
+    "id": 27,
+    "name": "Sultolin (Salbutamol Inhaler)",
+    "company": "ACME Laboratories",
+    "category": "Respiratory",
+    "price": 280,
+    "image": "images/sultolin.jpg",
+    "description": "Inhaler for asthma and COPD patients."
+  },
+  {
+    "id": 28,
+    "name": "Clozepam (Clonazepam)",
+    "company": "Square Pharmaceuticals",
+    "category": "Mental Health",
+    "price": 400,
+    "image": "images/clozepam.jpg",
+    "description": "Used for anxiety and seizure disorders."
+  },
+  {
+    "id": 29,
+    "name": "Amaryl (Glimepiride)",
+    "company": "Beximco Pharmaceuticals",
+    "category": "Diabetes Care",
+    "price": 230,
+    "image": "images/amaryl.jpg",
+    "description": "Oral diabetes medicine for blood sugar control."
+  },
+  {
+    "id": 30,
+    "name": "Zovirax (Acyclovir)",
+    "company": "Eskayef Pharmaceuticals",
+    "category": "Antivirals",
+    "price": 270,
+    "image": "images/zovirax.jpg",
+    "description": "Used for treating herpes and chickenpox."
+  }
+]
