@@ -18,7 +18,7 @@ fetch('products.json')
           <p><strong>Category:</strong> ${product.category}</p>
           <p class="price">৳${product.price}</p>
           <p>${product.description}</p>
-          <button class="btn">Add to Cart</button>
+          <button class="btn add-to-cart-btn" data-id="${product.id}">Add to Cart</button>
         </div>
       `;
     } else {
