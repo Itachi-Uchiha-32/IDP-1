@@ -43,13 +43,17 @@ function renderProducts(products) {
       <img src="${product.image}" alt="${product.name}">
       <h3>${product.name}</h3>
       <p>৳${product.price}</p>
-      <button class="btn" data-id="${product.id}">Add to Cart</button>
+      <button class="btn add-to-cart-btn" data-id="${product.id}">Add to Cart</button>
     `;
     card.querySelector('img').addEventListener('click', () => {
       window.location.href = `product.html?id=${product.id}`;
     });
     card.querySelector('h3').addEventListener('click', () => {
       window.location.href = `product.html?id=${product.id}`;
+    });
+    card.querySelector('.add-to-cart-btn').addEventListener('click', () => {
+        addToCart(product);
+        alert(`${product.name} added to cart!`);
     });
     grid.appendChild(card);
   });

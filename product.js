@@ -21,6 +21,10 @@ fetch('products.json')
           <button class="btn add-to-cart-btn" data-id="${product.id}">Add to Cart</button>
         </div>
       `;
+      detailsSection.querySelector('.add-to-cart-btn').addEventListener('click', () => {
+        addToCart(product);
+        alert(`${product.name} added to cart!`);
+    });
     } else {
       detailsSection.innerHTML = `<p>Sorry, product not found.</p>`;
     }

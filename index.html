@@ -15,23 +15,23 @@
   <!-- Navbar -->
   <header>
   <nav class="navbar">
-  <div class="menu-toggle">
-    <i class="fas fa-bars"></i>
-  </div>
-  <div class="logo">MediCare</div>
-  <ul class="nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <div class="nav-actions">
-    <a href="#" id="cartIcon" class="cart-link">
-      <i class="fas fa-shopping-cart"></i>
-      <span id="cartCount" class="cart-count">0</span>
-    </a>
-    <button class="login-btn">Log In</button>
-  </div>
-</nav>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="logo">MediCare</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#" id="cartIcon" class="cart-link">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cartCount" class="cart-count">0</span>
+      </a>
+      <button class="login-btn">Log In</button>
+    </div>
+  </nav>
 </header>
 <!-- Cart Drawer -->
  <div id="cartDrawer" class="cart-drawer">
@@ -44,6 +44,7 @@
     </div>
     <div class="cart-footer">
       <p>Total Amount: <span id="cartTotal">৳0</span></p>
+       <a href="checkout.html" class="btn" id="goToCheckoutBtn">Go to Checkout</a>
     </div>
   </div>
   <div id="cartOverlay" class="cart-overlay"></div>
@@ -112,6 +113,7 @@
     </div>
   </footer>
 <script src="./script.js"></script>
+<script src="./cart.js"></script>
 
 </body>
 </html>
