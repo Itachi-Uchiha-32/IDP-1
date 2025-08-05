@@ -497,6 +497,108 @@ footer .socials a:hover {
   float: right;
 }
 
+/*Checkout CSS*/
+
+/* Checkout Page Styles */
+.checkout-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.checkout-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  color: #2c3e50;
+}
+
+/* Checkout Table */
+.checkout-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-style: none;
+  margin-bottom: 20px;
+}
+
+.checkout-table th{
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+.checkout-table td {
+  padding: 15px;
+  text-align: center;
+}
+
+.checkout-table th {
+  background: #f7f7f7;
+  font-weight: 600;
+}
+
+.checkout-table img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Quantity controls */
+.checkout-table td button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.checkout-table td button:hover {
+  background: #217dbb;
+}
+
+.checkout-table td span {
+  margin: 0 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Total and Checkout */
+.checkout-summary {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.checkout-summary h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #27ae60;
+}
+
+.checkout-summary .btn {
+  background: #27ae60;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.checkout-summary .btn:hover {
+  background: #219150;
+}
+
+
 /* Responsive for small screens */
 
   .banner img {
