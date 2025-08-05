@@ -498,12 +498,11 @@ footer .socials a:hover {
 }
 
 /*Checkout CSS*/
-
 /* Checkout Page Styles */
 .checkout-container {
   max-width: 900px;
-  margin: 50px auto;
-  padding: 30px;
+  margin: 30px auto;
+  padding: 20px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -511,26 +510,31 @@ footer .socials a:hover {
 
 .checkout-container h1 {
   text-align: center;
-  margin-bottom: 25px;
-  font-size: 32px;
+  margin-bottom: 20px;
+  font-size: 28px;
   color: #2c3e50;
 }
 
-/* Checkout Table */
+/* Make table responsive */
+.checkout-table-container {
+  overflow-x: auto;
+}
+
 .checkout-table {
   width: 100%;
   border-collapse: collapse;
-  border-style: none;
   margin-bottom: 20px;
+  min-width: 600px; 
 }
 
 .checkout-table th{
   border: 1px solid #ddd;
-  padding: 15px;
+  padding: 12px;
   text-align: center;
+  
 }
 .checkout-table td {
-  padding: 15px;
+  padding: 12px;
   text-align: center;
 }
 
@@ -540,17 +544,17 @@ footer .socials a:hover {
 }
 
 .checkout-table img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   border-radius: 5px;
 }
 
 /* Quantity controls */
 .checkout-table td button {
-  width: 30px;
-  height: 30px;
-  font-size: 18px;
+  width: 28px;
+  height: 28px;
+  font-size: 16px;
   font-weight: bold;
   border: none;
   background: #3498db;
@@ -565,37 +569,61 @@ footer .socials a:hover {
 }
 
 .checkout-table td span {
-  margin: 0 8px;
-  font-size: 16px;
+  margin: 0 6px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 /* Total and Checkout */
 .checkout-summary {
   text-align: right;
-  margin-top: 20px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .checkout-summary h2 {
-  font-size: 22px;
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
   color: #27ae60;
 }
 
 .checkout-summary .btn {
   background: #27ae60;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  padding: 12px 24px;
+  padding: 10px 20px;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s;
 }
 
 .checkout-summary .btn:hover {
   background: #219150;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .checkout-container {
+    padding: 15px;
+  }
+
+  .checkout-container h1 {
+    font-size: 24px;
+  }
+
+  .checkout-summary h2 {
+    font-size: 18px;
+  }
+  .checkout-summary{
+    display: flex;
+    flex-direction: column;
+  }
+  .checkout-summary .btn {
+    width: 100%; /* Full-width checkout button */
+  }
 }
 
 
