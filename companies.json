@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "company_name": "Square Pharmaceuticals Ltd.",
+    "image": "https://i.ibb.co.com/cK12Ynsw/SQUARE-Pharma-1-removebg-preview.png"
+  },
+  {
+    "id": 2,
+    "company_name": "Renata Limited",
+    "image": "https://i.ibb.co.com/JFB4kx78/Renata-Pharma-1-removebg-preview.png"
+  },
+  {
+    "id": 3,
+    "company_name": "ACI Limited",
+    "image": "https://i.ibb.co.com/qKS4ycd/ACI-Pharma-1-removebg-preview.png"
+  }
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <a href="index.html" class="site-logo"><h1>Medicare</h1></a>
+      <h2>Dashboard</h2>
+      <ul>
+        <li><a href="#" data-section="cart-summary" class="active">Cart Summary</a></li>
+        <li><a href="#" data-section="order-history">Order History</a></li>
+        <li><a href="#" data-section="make-request">Make a Product Request</a></li>
+        <li><a href="#" data-section="my-requests">My Requests</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Cart Summary -->
+      <div id="cart-summary" class="content-section active">
+        <h2>Cart Summary</h2>
+        <div id="cartSummaryContainer"></div>
+      </div>
+
+      <!-- Order History -->
+      <div id="order-history" class="content-section">
+        <h2>Order History</h2>
+        <div id="orderHistoryContainer"></div>
+      </div>
+
+      <!-- Make a Product Request -->
+     <!-- Make a Product Request -->
+<div id="make-request" class="content-section">
+  <div class="request-form-container">
+    <h2>Request a Product</h2>
+    <form id="productRequestForm" class="request-form">
+      <label for="productName">Product Name *</label>
+      <input type="text" id="productName" name="productName" required />
+
+      <label for="description">Description *</label>
+      <textarea id="description" name="description" rows="3" required></textarea>
+
+      <label for="group">Group *</label>
+      <input type="text" id="group" name="group" required />
+
+      <label for="company">Company *</label>
+      <input type="text" id="company" name="company" required />
+
+      <label for="category">Category *</label>
+      <select id="category" name="category" required>
+        <option value="">Select category</option>
+        <option value="Tablet">Tablet</option>
+        <option value="Syrup">Syrup</option>
+        <option value="Capsule">Capsule</option>
+        <option value="Injection">Injection</option>
+        <option value="Ointment">Ointment</option>
+      </select>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+</div>
+
+
+
+      <!-- My Requests -->
+      <div id="my-requests" class="content-section">
+        <h2>My Requests</h2>
+        <div id="myRequestsContainer">
+          <!-- Requests table will be generated here -->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

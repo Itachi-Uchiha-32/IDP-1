@@ -42,6 +42,23 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   checkoutBtn.addEventListener("click", () => {
+    if (cart.length === 0) {
+      alert("Your cart is empty!");
+      return;
+    }
+
+    // ✅ Save order to order history
+    let orders = JSON.parse(localStorage.getItem("orders")) || [];
+    const newOrder = {
+      id: Date.now(), // unique order id
+      date: new Date().toLocaleString(),
+      items: cart,
+      total: cart.reduce((sum, item) => sum + item.price * item.quantity, 0)
+    };
+    orders.push(newOrder);
+    localStorage.setItem("orders", JSON.stringify(orders));
+
+    // Clear cart after saving order
     localStorage.removeItem("cart");
     window.location.href = "confirmed.html";
   });

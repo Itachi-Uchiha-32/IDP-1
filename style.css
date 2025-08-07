@@ -240,7 +240,7 @@ body {
 
 .company-logos img {
   width: 100px;
-  filter: grayscale(100%);
+  
   transition: 0.3s;
 }
 
